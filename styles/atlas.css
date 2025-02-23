@@ -1,0 +1,898 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/banner-bk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+
+.prin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 10vh;
+    margin: 4vh 12vh;
+}
+
+.derecha {
+    color: rgb(219, 219, 219);
+    margin: 4vh 12vh;
+    font-size: 2vh;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 8vh;
+    color: #fff;
+    margin-left: 12vh;
+}
+
+.princi {
+    color: rgb(219, 219, 219);
+    margin-left: 12vh;
+    font-size: 2vh;
+    font-weight: 100;
+    line-height: 1.5;
+    width: 80vh;
+}
+
+.primer {
+    border: none;
+    border-radius: 2.5vh;
+    background-color: #00ffad;
+    padding: 1.5vh 3.5vh;
+    font-size: 1.8vh;
+    font-weight: 700;
+    margin: 4vh 12vh;
+    cursor: pointer;
+}
+
+.primer:hover {
+    background-color: #058059;
+    color: #c4c4c4;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 13vh;
+    margin-bottom: 6vh;
+}  
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 15vh;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 36vh;
+    margin: auto 0;
+}
+
+.contenedor h3{
+    font-size: 3vh;
+    margin: 0;
+}
+
+.contenedor p{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.contenedor img{
+    width: 20vh;
+}
+
+.parte2{
+    margin-top: 16vh;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom right, #ffffff 50%, #00ffad 50%);
+
+}
+
+.contenedor25{
+    display: flex;
+    justify-content: space-around;
+    background-color: #00ffad;
+    padding-bottom: 6vh;
+    padding-top: 15vh;
+    margin-bottom: 5vh;
+    
+}
+
+.info h2{
+    font-size: 5.5vh;
+    margin: 2vh auto;
+}
+
+.info p{
+    font-size: 2vh;
+    width: 80vh;
+    line-height: 1.5;
+    
+
+}
+
+.info button{
+    border: none;
+    border-radius: 2.5vh;
+    background-color:  #1a2137;
+    color: rgb(255, 255, 255);
+    padding: 1.5vh 3.5vh;
+    font-size: 1.8vh;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.info button:hover{
+    background-color: #55679b; 
+}
+
+.parte3 h2{
+    text-align: center;
+    font-size: 5vh;
+    margin-top: 13vh;
+    margin-bottom: 6vh;
+}
+
+.planes{
+    display: flex;
+    justify-content: center;
+}
+
+.moneda{
+    font-weight:600;
+}
+
+.precio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vh;
+}
+
+.precio2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 45vh;
+    background-color: #1a2137;
+    color: #ffffff;
+}
+
+.precio2 h3{
+    font-size: 3vh;
+    font-weight: 100;
+}
+
+.precio h3{
+    font-size: 3vh;
+    font-weight: 100;
+}
+
+.precio button{
+    border: solid 0.4vh;
+    border-color: #1a2137;
+    border-radius: 2.5vh;
+    background-color: #ffffff00;
+    padding: 1.5vh 3.5vh;
+    font-size: 1.8vh;
+    font-weight: 700;
+    margin: 4vh 12vh; 
+    cursor: pointer;
+}
+
+.precio button:hover{
+    background-color: #00ffad;
+    border: none;
+}
+
+.precio2 button{
+    border: none;
+    border-radius: 2.5vh;
+    background-color: #00ffad;
+    padding: 1.5vh 3.5vh;
+    font-size: 1.8vh;
+    font-weight: 700;
+    margin: 4vh 12vh; 
+    cursor: pointer;
+}
+
+.precio2 button:hover{
+    border: solid 0.4vh;
+    border-color: #ffffff;
+    background-color: #ffffff00;
+    color: #ffff;
+}
+
+.patrocinadores{
+    margin-top: 20vh;
+    margin-bottom: 0;
+    background-color: rgba(236,239,238,255);
+    padding: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactos{
+    background-image: url(../assets/images/contact-bk.jpg);
+    background-repeat: space;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+    margin-top: 15vh;
+    color: #ffffff;
+}
+
+.contact h2{
+    font-size: 5vh;
+    margin-bottom: 1vh;
+}
+
+.inf{
+    line-height: 2;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactos h2{
+    margin-top: 0;
+}
+
+.campos{
+    display: flex;
+    margin-top: 15vh;
+    margin-bottom: 2vh;
+}
+
+.campo1{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1vh;
+}
+
+.campo1 input{
+    background-color: #ffffff00;
+    border: solid 0.3vh;
+    border-color: #00ffad;
+    border-radius: 0.5vh;
+    width: 40vh;
+    height: 4vh;
+    margin-top: 1vh;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vh;
+}
+
+.campo2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+}
+
+.campo2 input{
+    background-color: #ffffff00;
+    border: solid 0.3vh;
+    border-color: #00ffad;
+    border-radius: 0.5vh;
+    width: 40vh;
+    height: 4vh;
+    margin-top: 1vh;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vh;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+
+.comentario textarea{
+    background-color: #ffffff00;
+    border: solid 0.3vh;
+    border-color: #00ffad;
+    border-radius: 0.5vh;
+    width: 83vh;
+    height: 8vh;
+    margin-top: 1vh;
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8vh;
+}
+
+.submit{
+    border: none;
+    border-radius: 2.5vh;
+    background-color: #00ffad;
+    padding: 1.5vh 3.5vh;
+    font-size: 1.8vh;
+    font-weight: 500;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #058059; 
+    color: #c4c4c4;
+}
+
+label{
+    color: #00ffad;
+
+}
+
+footer{
+    background-color: rgba(25,36,64,255);
+    margin: 0;
+    padding: 4vh;
+}
+
+footer p{
+    color: #ffffff;
+    margin-left: 18vh;
+}
+
+.pres{
+    font-size: 10vh;
+}
+
+ul{
+    list-style: none;
+}
+
+/* 921px a 1279px: dispositivos de escritorio medianos */
+@media (min-width: 921px) and (max-width: 1279px) {
+    .logo {
+        height: 8vh;
+        margin: 3vh 8vh;
+    }
+    h1 {
+        font-size: 7vh;
+        margin-left: 8vh;
+    }
+    .princi {
+        font-size: 2.3vh;
+        width: 70vh;
+        margin-left: 8vh;
+    }
+    .primer {
+        padding: 1.2vh 3vh;
+        font-size: 1.7vh;
+        margin: 3vh 8vh;
+    }
+    
+    .cards{
+        margin: 1vh;
+    }
+    
+    .info h2{
+        font-size: 4.5vh;
+        margin-left: 2vh;
+    }
+
+    .info p{
+        margin-left: 2vh;
+        width: 50vh;
+    }
+
+    .info button{
+        margin-left: 2vh;
+        margin-bottom: 7vh;
+    }
+
+    .compu{
+        width: 50vh;
+        margin-right: 2vh;
+    }
+
+    .compu2{
+        width: 50vh;
+    }
+
+    .patrocinadores{
+        margin-top: 10vh;
+        padding: 5vh 2vh;
+    }
+
+    .campo1 input{
+        width: 21vh;
+    }
+
+    .campo2 input{
+        width: 21vh;
+    }
+
+    .comentario textarea{
+        width: 45vh;
+    }
+
+    footer p{
+        margin-left: 2vh;
+    }
+}
+
+/* 769px a 920px: tablets grandes / pantallas pequeñas de escritorio */
+@media (min-width: 769px) and (max-width: 920px) {
+    header {
+        height: 65vh;
+    }
+    .logo {
+        height: 8vh;
+        margin: 2vh 6vh;
+    }
+    h1 {
+        font-size: 6.5vh;
+        margin-left: 6vh;
+    }
+    .princi {
+        font-size: 2.2vh;
+        width: 60vh;
+        margin-left: 6vh;
+    }
+    .primer {
+        padding: 1.2vh 2.8vh;
+        font-size: 1.7vh;
+        margin: 3vh 6vh;
+    }
+
+    .cards{
+        margin: 1vh;
+    }
+    
+    .info h2{
+        font-size: 4vh;
+        margin-left: 2vh;
+    }
+
+    .info p{
+        margin-left: 2vh;
+        font-size: 1.8vh;
+        width: 40vh;
+    }
+
+    .info button{
+        margin-left: 2vh;
+        margin-bottom: 7vh;
+    }
+
+    .compu{
+        width: 48vh;
+        margin-right: 2vh;
+    }
+
+    .compu2{
+        width: 48vh;
+    }
+
+    .pres{
+        font-size: 9vh;
+    }
+    
+    .precio{
+        width: 30vh;
+    }
+    
+    .precio2{
+        width: 30vh;
+    }
+    
+    .precio2 h3{
+        font-size: 2.5vh;
+        font-weight: 100;
+    }
+    
+    .precio h3{
+        font-size: 2.5vh;
+        font-weight: 100;
+    }
+    
+    .precio button{
+        font-size: 1.8vh;
+        padding: 1.5vh 4vh;
+    }
+
+    
+    .precio2 button{
+        padding: 1.5vh 4vh;
+        font-size: 1.8vh;
+    }
+
+    .patrocinadores{
+        margin-top: 10vh;
+        padding: 1vh;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 6vh;
+    }
+
+    .contact{
+        margin-top: 10vh;
+    }
+
+    .contact h2{
+        font-size: 4vh;
+    }
+
+    .contact p{
+        font-size: 2vh;
+        width: 39vh;
+    }
+
+    .campo1 input{
+        width: 19vh;
+    }
+
+    .campo2 input{
+        width: 19vh;
+    }
+
+    .comentario textarea{
+        width: 41vh;
+    }
+
+    footer p{
+        margin-left: 2vh;
+    }
+    
+}
+
+/* 481px a 768px: tablets en modo retrato / teléfonos grandes */
+@media (min-width: 481px) and (max-width: 768px) {
+    header {
+        height: 65vh;
+    }
+    .logo {
+        height: 8vh;
+        margin: 2vh 3vh;
+    }
+    h1 {
+        margin-top: 2vh;
+        font-size: 5vh;
+        margin-left: 3vh;
+        width: 30vh;
+    }
+    .princi {
+        font-size: 2vh;
+        width: 30vh;
+        margin-left: 3vh;
+    }
+
+    .primer {
+        padding: 1.2vh 2.8vh;
+        font-size: 1.7vh;
+        margin: 1vh 3vh;
+    }
+
+    .derecha{
+        margin: 2vh 3vh;
+    }
+
+    .titulo2{
+        font-size: 4vh;
+        margin-top: 8vh;
+    }
+
+    .cards{
+        margin-top: 0.5vh;
+        flex-wrap: wrap;
+    }
+    
+    .info h2{
+        font-size: 3vh;
+    }
+
+    .info p{
+        font-size: 1.8vh;
+        width: 30vh;
+    }
+
+    .info button{
+        padding: 1.2vh 2.8vh;
+        margin-bottom: 2vh;
+    }
+
+    .contenedor2{
+        flex-wrap: wrap;
+    }
+
+    .compu{
+        width: 50vh;
+    }
+
+    .contenedor25{
+        flex-wrap: wrap;
+    }
+
+    .compu2{
+        width: 48vh;
+    }
+
+    .planes{
+        flex-wrap: wrap;
+    }
+
+    .pres{
+        font-size: 9vh;
+    }
+    
+    .precio{
+        width: 25vh;
+        border: solid;
+        border-radius: 1vh;
+        margin: 1vh;
+    }
+
+    .precio2{
+        width: 25vh;
+        margin: 1vh;
+        border-radius: 1vh;
+    }
+    
+    .precio2 h3{
+        font-size: 2.5vh;
+        font-weight: 100;
+    }
+    
+    .precio h3{
+        font-size: 2.5vh;
+        font-weight: 100;
+    }
+    
+    .precio button{
+        font-size: 1.8vh;
+        padding: 1.5vh 4vh;
+    }
+
+    
+    .precio2 button{
+        padding: 1.5vh 4vh;
+        font-size: 1.8vh;
+    }
+
+    .patrocinadores{
+        margin-top: 10vh;
+        padding: 1vh;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 6vh;
+    }
+
+    .contactos{
+        flex-wrap: wrap;
+        height: auto;
+        margin: 0;
+        background-repeat: repeat;
+    }
+
+    .contact{
+        margin-top: 10vh;
+    }
+
+    .contact h2{
+        font-size: 4vh;
+    }
+
+    .contact p{
+        font-size: 2vh;
+        width: 90%;
+        margin-bottom: 0;
+    }
+
+    .campos{
+        margin-top: 10vh;
+    }
+
+    .campo1 input{
+        width: 19vh;
+    }
+
+    .campo2 input{
+        width: 19vh;
+    }
+
+    .comentario textarea{
+        width: 41vh;
+    }
+
+    .submit{
+        margin-bottom: 10vh;
+    }
+
+    footer p{
+        margin-left: 1vh;
+    }
+}
+
+/* 352px a 480px: teléfonos pequeños */
+@media (min-width: 352px) and (max-width: 480px) {
+    header {
+        height: 65vh;
+    }
+    .logo {
+        height: 8vh;
+        margin: 2vh 3vh;
+    }
+    h1 {
+        margin-top: 2vh;
+        font-size: 5vh;
+        margin-left: 3vh;
+        width: 30vh;
+    }
+    .princi {
+        font-size: 2vh;
+        width: 30vh;
+        margin-left: 3vh;
+    }
+
+    .primer {
+        padding: 1.2vh 2.8vh;
+        font-size: 1.7vh;
+        margin: 1vh 3vh;
+    }
+
+    .derecha{
+        margin: 2vh 3vh;
+    }
+
+    .titulo2{
+        font-size: 4vh;
+        margin-top: 8vh;
+    }
+
+    .cards{
+        margin-top: 0.5vh;
+        flex-wrap: wrap;
+    }
+    
+    .info h2{
+        font-size: 3vh;
+    }
+
+    .info p{
+        font-size: 1.8vh;
+        width: 30vh;
+    }
+
+    .info button{
+        padding: 1.2vh 2.8vh;
+        margin-bottom: 5vh;
+    }
+
+    .contenedor2{
+        flex-wrap: wrap;
+    }
+
+    .compu{
+        width: 42vh;
+    }
+
+    .contenedor25{
+        flex-wrap: wrap;
+    }
+
+    .compu2{
+        width: 40vh;
+    }
+
+    .planes{
+        flex-wrap: wrap;
+    }
+
+    .pres{
+        font-size: 9vh;
+    }
+    
+    .precio{
+        width: 25vh;
+        border: solid;
+        border-radius: 1vh;
+        margin: 1vh;
+    }
+
+    .precio2{
+        width: 25vh;
+        margin: 1vh;
+        border-radius: 1vh;
+    }
+    
+    .precio2 h3{
+        font-size: 2.5vh;
+        font-weight: 100;
+    }
+    
+    .precio h3{
+        font-size: 2.5vh;
+        font-weight: 100;
+    }
+    
+    .precio button{
+        font-size: 1.8vh;
+        padding: 1.5vh 4vh;
+    }
+
+    
+    .precio2 button{
+        padding: 1.5vh 4vh;
+        font-size: 1.8vh;
+    }
+
+    .patrocinadores{
+        margin-top: 10vh;
+        padding: 1vh;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center; 
+        gap: 6vh;
+    }
+
+    .contactos{
+        flex-wrap: wrap;
+        height: 100vh;
+        margin: 0;
+        background-repeat: repeat;
+    }
+
+    .contact{
+        margin-top: 8vh;
+    }
+
+    .contact h2{
+        font-size: 4vh;
+    }
+
+    .contact p{
+        font-size: 2vh;
+        width: 30vh;
+        margin-bottom: 0;
+    }
+
+    .campos{
+        margin-top: 2vh;
+    }
+
+    .campo1 input{
+        width: 17vh;
+    }
+
+    .campo2 input{
+        width: 17vh;
+    }
+
+    .comentario textarea{
+        width: 37vh;
+    }
+
+    footer p{
+        margin-left: 0.1vh;
+    }
+}
